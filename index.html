@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrytor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/Images/Logo.png" alt="alura logo" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="5" placeholder="Enter the text here"></textarea>
+            <div>
+                <h6 class="information">Only lowercase letters and no accents</h6>
+            </div>
+            <div class="buttons">
+                <button class="btn-encryptor" onclick="btnEncrypt()">Encrypt</button>
+                <button class="btn-decrypt" onclick="btnDecrypt()">Decrypt</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="message" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copy">Copy</button>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
